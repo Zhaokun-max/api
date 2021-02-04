@@ -1,0 +1,26 @@
+#用户登录成功
+url: http://127.0.0.1:5000/login
+method: post
+data:
+  username: panda
+  password: 123456
+  age: 18
+  sex: 男
+expect: panda
+---
+url: http://127.0.0.1:5000/login
+method: post
+data:
+  password: 123456
+  age: 18
+  sex: 男
+expect: 您输入的用户名不能为空
+---
+url: http://127.0.0.1:5000/login
+method: post
+data:
+  username: panda
+  password: 123456
+  age: 18
+  sex: www
+expect: 性别只能是男或女

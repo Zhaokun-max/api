@@ -1,0 +1,35 @@
+test_name: login接口
+stages:
+  - name: test_login_001
+    request:
+      url: http://127.0.0.1:5000/login/
+      method: post
+      data:
+        username: panda
+        password: 123456
+        age: 18
+        six: 男
+    response:
+      status_code: 200
+      body:
+        username: panda
+
+---
+stages:
+  - name: 拉勾网测试案例
+    request:
+      url: https://
+      method: post
+      data:
+        first: false
+        pn: 2
+        kd: 测试开发工程师
+        sid: fghjk3457
+      headers:
+
+    response:
+      status_code: 200
+      body:
+        content:
+          positionResult:
+            resultSize:

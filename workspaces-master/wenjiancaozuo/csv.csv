@@ -1,0 +1,11 @@
+测试用例,测试地址,请求参数
+login_001,http://195.18.0.1,{"username":"wuya"}
+login_002,http://195.18.0.2,{"username":"wuya"}
+login_003,http://195.18.0.3,{"username":"wuya"}
+login_004,http://195.18.0.4,{"username":"wuya"}
+login_005,http://195.18.0.5,{"username":"wuya"}
+login_006,http://195.18.0.6,{"username":"wuya"}
+login_007,http://195.18.0.7,{"username":"wuya"}
+login_008,http://195.18.0.8,{"username":"wuya"}
+login_009,http://195.18.0.9,{"username":"wuya"}
+login_010,http://195.18.0.10,{"username":"wuya"}

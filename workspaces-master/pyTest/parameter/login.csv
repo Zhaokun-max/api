@@ -1,0 +1,6 @@
+﻿url,body,expect
+http://localhost:5000/login,"{""password"":""admin"",""sex"":""男"",""age"":18 }","{""message"": { ""username"": ""用户名不能为空""}}"
+http://localhost:5000/login,"{""password"":""admin"",""sex"":""男"",""age"":18}","{""message"": {""username"": ""用户名不能为空""}}"
+http://localhost:5000/login,"{""username"":""wuya"",""password"":""admin"",""sex"":""asdf"",""age"":18}","{""message"": {""sex"": ""性别只能是男或者女""}}"
+http://localhost:5000/login,"{""username"":""wuya"",""password"":""admin"",""sex"":""男"",""age"":""rrest"" }","{""message"": {""age"": ""年龄必须为正正数""}}"
+http://localhost:5000/login,"{""username"":""wuya"",""password"":""admin"",""sex"":""男"",""age"":""18"" }","{""age"": 18, ""password"": ""admin"",""sex"": ""男"", ""username"": ""wuya"" }"

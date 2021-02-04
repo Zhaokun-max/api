@@ -1,0 +1,6 @@
+<?xml version="2.0" encoding="utf-8"?>
+<DataDriven>
+    <yan>学海无涯苦作舟</yan>
+    <admin>盼达</admin>
+    <PanDa nick="盼达" age="18" sex="boy" address="beijing"></PanDa>
+</DataDriven>

@@ -1,0 +1,30 @@
+DEBUG:root:this is a debug log
+INFO:root:this is a info log
+WARNING:root:this is a warning log
+ERROR:root:this is a error log
+CRITICAL:root:this is a critical log
+DEBUG:root:hhhh
+2020-08-04 15:42:39,317=====DEBUG++++++(message)s
+2020-08-04 15:42:39,317=====INFO++++++(message)s
+2020-08-04 15:42:39,317=====WARNING++++++(message)s
+2020-08-04 15:42:39,317=====ERROR++++++(message)s
+2020-08-04 15:42:39,317=====CRITICAL++++++(message)s
+2020-08-04 15:42:39,318=====DEBUG++++++(message)s
+2020-08-04 15:44:00,586=====DEBUG++++++this is a debug log
+2020-08-04 15:44:00,586=====INFO++++++this is a info log
+2020-08-04 15:44:00,586=====WARNING++++++this is a warning log
+2020-08-04 15:44:00,586=====ERROR++++++this is a error log
+2020-08-04 15:44:00,587=====CRITICAL++++++this is a critical log
+2020-08-04 15:44:00,587=====DEBUG++++++hhhh
+2020-08-04 15:45:08,448DEBUGthis is a debug log
+2020-08-04 15:45:08,448INFOthis is a info log
+2020-08-04 15:45:08,448WARNINGthis is a warning log
+2020-08-04 15:45:08,448ERRORthis is a error log
+2020-08-04 15:45:08,448CRITICALthis is a critical log
+2020-08-04 15:45:08,449DEBUGhhhh
+2020-12-19 11:03:57,845DEBUGthis is a debug log
+2020-12-19 11:03:57,879INFOthis is a info log
+2020-12-19 11:03:57,879WARNINGthis is a warning log
+2020-12-19 11:03:57,879ERRORthis is a error log
+2020-12-19 11:03:57,880CRITICALthis is a critical log
+2020-12-19 11:03:57,880DEBUGhhhh
